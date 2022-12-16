@@ -26,7 +26,7 @@ def get_filters():
             if city in ['chicago','new york city', 'washington']:
                 break
             else:
-                print("wrong city")
+                print("wrong city,city must be chicago,new york city, or washington")
         except:
             print("wrong city")
         
