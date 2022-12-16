@@ -26,7 +26,7 @@ def get_filters():
             if city in ['chicago','new york city', 'washington']:
                 break
             else:
-                print("wrong city")
+                print("wrong city,city must be chicago,new york city, or washington")
         except:
             print("wrong city")
         
@@ -40,7 +40,7 @@ def get_filters():
             if month in ['all','january','february','march','april','may','june']:
                 break
             else:
-                print('wrong month')
+                print('wrong month.')
         except:
             print("wrong month")
             
