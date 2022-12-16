@@ -40,7 +40,7 @@ def get_filters():
             if month in ['all','january','february','march','april','may','june']:
                 break
             else:
-                print('wrong month')
+                print('wrong month.')
         except:
             print("wrong month")
             
