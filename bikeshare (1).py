@@ -42,7 +42,7 @@ def get_filters():
             else:
                 print('wrong month')
         except:
-            print("wrong month")
+            print("wrong month, months should be:all,january,february,march,april,may,june")
             
             
          
